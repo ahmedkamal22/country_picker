@@ -11,7 +11,7 @@ class Utils {
 
     if (countryCode == 'SY') {
       // Returning empty string here since I will show a custom image instead
-      return '';
+      return '🇸🇾';
     }
 
     final int firstLetter = countryCode.codeUnitAt(0) - 0x41 + 0x1F1E6;
